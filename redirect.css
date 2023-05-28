@@ -1,0 +1,30 @@
+html{
+    font-size: 30px;
+}
+
+body{
+    background: linear-gradient(to left, #A7BFE8, #6190E8); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Bebas Neue',Helvetica;
+    color:  #1a1d4e;
+}
+
+.container{
+    display: flex;
+    align-items: space-between;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Lilita One';
+    color: #212121;
+}
+
+img{
+    width: 25%;
+}

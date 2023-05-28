@@ -1,0 +1,169 @@
+article 
+{
+    margin-top:3%;
+}
+
+article strong
+{
+    font-size: 1.5rem;
+}
+
+h3,strong
+{
+    font-family: 'Bebas Neue';
+}
+
+p.azzurro
+{
+    border-bottom: 1px solid rgba(97, 144, 232, 0.588)
+}
+
+
+#film_view,#serie_view,.similar
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid  #6190E8;
+    width: calc(32% - 10px); 
+    margin: 3px;
+    padding: 5px 4px;
+    transition: all 0.6s ease-in-out;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    text-decoration: none;
+    color: #212121;
+}
+
+.container h3
+{
+    margin: 5px 0;
+}
+
+.container img
+{
+    width: 40%;
+}
+
+.container p
+{
+    font-size: 0.8rem;
+}
+
+.container:hover
+{
+    color:#1a1d4e;
+    background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.button
+{
+    border-radius: 1rem;
+    border: none;
+    background-color: #A7BFE8;
+    color: white; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    width: 70%;
+    cursor: pointer;
+}
+
+.container:hover .button
+{
+    background: #1a1d4e;
+    transition: all 0.6s ease-in-out;
+}
+
+.container:hover .button:hover
+{
+    background: none;
+    color: #1a1d4e;
+    transition: all 0.3s ease-out;
+}
+
+
+#content
+{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.block
+{
+    display: flex;
+    align-items: center;
+}
+
+.block h3
+{
+    font-size: 1.7rem;
+}
+
+.block img
+{
+    width: 30%;
+    margin-right: 5%;
+}
+
+.vote
+{
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#loading
+{
+    width: 40%;
+}
+
+.similar .button
+{
+    margin-top: 3px;
+}
+
+.hidden
+{
+    display: none;
+}
+
+
+@media (max-width: 600px)
+{
+   .block
+   {
+    flex-direction: column;
+   }
+
+   .container
+   {
+    width: calc(47% - 10px); 
+   }
+
+   .open .container
+   {
+    width: 100%;
+   }
+
+   .button
+   {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+   }
+
+   .container h3
+   {
+    font-size: 1rem;
+   }
+   
+}

@@ -1,0 +1,24 @@
+.notizia
+{
+    margin: 10px 0;
+}
+
+h3
+{
+    font-family: 'Bebas Neue';
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+.notizia p
+{
+    margin-bottom: 5px;
+    line-height: 1.7rem;
+}
+
+article img
+{
+    width: 40%;
+    margin-top: 30px;
+}
+

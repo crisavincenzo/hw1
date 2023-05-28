@@ -1,0 +1,166 @@
+html{
+    font-size: 18px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Bebas Neue',Helvetica;
+    color:  #1a1d4e;
+    background-image: url(images/blob-scene-haikei.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+article{
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.condizioni
+{
+    justify-content: flex-start;
+}
+
+.show
+{
+    position: absolute; 
+    left: 87%;
+    height: auto;
+    width: 8%;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #c9d6ff5e;
+    border-radius: 50px;
+    width: 40%;
+    padding: 1%;
+}
+
+input{
+    margin-left: 0.5em;
+    margin: 15px;
+    border: solid 1.5px #1a1d4e;
+    border-radius: 1rem;
+    background: none;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.slogan
+{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.azzurro
+{
+    color: #A7BFE8;
+}
+
+img{
+    width: 6%;
+    height: 5%;
+}
+
+.container{
+    display: flex;
+    align-items: space-between;
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Lilita One';
+    margin-top:0;
+    color: #212121;
+}
+
+.button{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 100px;
+    width: 100%;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #1a1d4e;
+    color: #f5f5f5;  
+}
+
+.errore {
+    margin:0px;
+    color:  #e30000;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 0.65rem;
+    letter-spacing: 0.25px;
+    transition: all .4s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+.sel{
+    margin-right: -10px;
+}
+
+.opaco
+{
+    opacity: .7;
+    text-align: center;
+}
+
+a:visited
+{
+    color: #0000ff69;
+}
+
+@media (max-width: 600px)
+{
+   
+    html
+    {
+        font-size: 15px;
+    }
+
+    main
+    {
+        width: 65%;
+    }
+   
+}
+
+@media (max-width: 400px)
+{
+   
+    html
+    {
+        font-size: 15px;
+    }
+
+    main
+    {
+        width: 70%;
+    }
+   
+}
